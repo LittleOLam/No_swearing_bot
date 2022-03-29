@@ -1,5 +1,4 @@
 import discord
-from keep_alive import keep_alive
 
 
 client = discord.Client()
@@ -76,5 +75,4 @@ async def on_message(message):
         await message.delete()
         await message.channel.send(f'{message.author.mention} Do Not Swear')
 
-keep_alive()
 client.run("TOKEN")
