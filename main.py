@@ -75,4 +75,4 @@ async def on_message(message):
         await message.delete()
         await message.channel.send(f'{message.author.mention} Do Not Swear')
 
-client.run("TOKEN")
+client.run("OTUzNjExMTY0MTM3NDUxNTIx.YjHFmg.6-a5mBVlWUmGennqImxkJoNeLV4")
